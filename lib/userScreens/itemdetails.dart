@@ -298,8 +298,8 @@ class _ItemDetailState extends State<ItemDetail> {
       bottomNavigationBar: new BottomAppBar(
         color: Theme.of(context).primaryColor,
         elevation: 0.0,
-        shape: new CircularNotchedRectangle(),
-        notchMargin: 5.0,
+        //shape: new CircularNotchedRectangle(),
+        //notchMargin: 5.0,
         child: new Container(
           height: 50.0,
           decoration: new BoxDecoration(color: Theme.of(context).primaryColor),
